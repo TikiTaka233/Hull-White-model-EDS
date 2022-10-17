@@ -7,7 +7,7 @@ r=0.02;q=0;kappa=0.1;eta=2;rho=-0.7;v_0=0.05;%parameter of Hull-White model
 K=[90;100;110];% strike price
 % K=100;
 Tmat=1;N_monitor=4;delta_t=Tmat/N_monitor;%maturity and the number of monitor dates
-V_c_benchmark=[11.0034;1.8980;0.0272];
+V_c_benchmark=[11.0034;1.8980;0.0269];
 %% grid of state variable
 L=150;
 n_grid=3500;
